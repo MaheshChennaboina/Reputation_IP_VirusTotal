@@ -1,7 +1,11 @@
 """
 Explaination: Reputation check of IP using VirusTotal API
 Input:
+The script reads input from an Excel file (input.xlsx) containing a list of IP addresses.
+The first row is ignored, assuming it contains column headers.
 Output:
+The output is saved in an Excel file named output_date_time.xlsx in the "Result" folder.
+The columns include the IP address, VirusTotal malicious count, ASN owner, and country information.
 """
 import os
 import requests
