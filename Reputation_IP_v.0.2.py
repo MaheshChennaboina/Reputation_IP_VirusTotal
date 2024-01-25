@@ -76,7 +76,7 @@ def process_excel(input_file, output_file, vt_api_key):
 
 if __name__ == "__main__":
     # Replace 'YOUR_VT_API_KEY' with your actual VirusTotal API key
-    vt_api_key = '029455493eb333bf6e839263f7375ceb5a97db5845de1b3646775188a7879269'
+    vt_api_key = 'API KEY' # add your api key
 
     # Replace 'input.xlsx' and 'output_' with your actual input file and desired output file prefix
     input_file = 'input.xlsx'
